@@ -32,4 +32,6 @@ pull -- when there are changes to our code on Github and we want to download tho
 #Say, we want to know see all the commits we have performed. We can see it in the --> code --> file --> upper right corner.
 We can see that each commit has a unique identifier. 
 
+#Green with '+' means that the line has been added to the file.
+#Red with '_' 
 
