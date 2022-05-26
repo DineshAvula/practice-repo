@@ -33,5 +33,8 @@ pull -- when there are changes to our code on Github and we want to download tho
 We can see that each commit has a unique identifier. 
 
 #Green with '+' means that the line has been added to the file.
-#Red with '_' 
+#Red with '-' means that the line has been deleted from the file.
+#White means that it remained the same.
+
+#In Mac and Linux machines, Git is inherently installed.
 
