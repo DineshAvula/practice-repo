@@ -38,3 +38,23 @@ We can see that each commit has a unique identifier.
 
 #In Mac and Linux machines, Git is inherently installed.
 
+#ls -la -- in order to find out all the files and folders present in our repository.
+#git status -- it shows all the files that have been updated, created or deleted, which have not been saved by commit yet.
+
+#git add
+untracked file -- it means that git does not about this file yet. So, we need to tell git that it should track this file before we save it to git.
+For this, we use 'git add' command.
+
+If we say 'git add .', it means that we are asking the git to track all the modified files as well as the newly created or updated or deleted files. So, they will all be staged with git.
+
+Or we can just mention the individual file or folder that we want the git to track i.e. 'git add file-name'.
+
+After staging, check the status again. We will see that these changes have to be committed and 'our branch is up to date with origin/main.
+
+#git commit
+Whenever we commit, we must add a message so that we will later be able to identify and know what we have done and why we have done it.
+So, the code looks like 'git commit -m "my message" '. Here, '-m' represents message.
+We can also add a description here i.e. description of what we have done. We do it by adding another '-m'.
+ So, the command looks like 'git commit -m "my message" -m "some description" '.
+
+
