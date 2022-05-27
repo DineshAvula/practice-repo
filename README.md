@@ -104,7 +104,6 @@ Say, we want information about the remote repository. For this, we use 'git remo
 
  #git branch
  'git branch -a' -- it gives us all the branches present in our repository, not just locally, but remtely as well.
- s
  
  
 
