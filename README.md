@@ -85,6 +85,9 @@ If not, we can add them individually.
 If we want to remove the files from the staging area, we use 'git reset' command. Code looks like 'git reset file-name'.
 If we want to remove all the files from the staging area, code looks like 'git reset'.
 
+#git commit
+If we want to save the changes made to the files, we use 'git commit' command.
+We can add a message regarding the commit. Then the code looks like 'git commit -m "message"'.
 
 
 
