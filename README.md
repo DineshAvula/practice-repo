@@ -56,5 +56,12 @@ Whenever we commit, we must add a message so that we will later be able to ident
 So, the code looks like 'git commit -m "my message" '. Here, '-m' represents message.
 We can also add a description here i.e. description of what we have done. We do it by adding another '-m'.
  So, the command looks like 'git commit -m "my message" -m "some description" '.
+ 
+#git init
+Say, we want to create a new repository in the given folder. Then we just need to cd to that folder and then run 'git init'. This will create a new repo in this folder.
+
+If we want to make an already existing folder into a repository, then 'git init folder-name'.
+If we pass 'ls -la' commands into it, we will be able to see '.git' file in both of them.
+
 
 
