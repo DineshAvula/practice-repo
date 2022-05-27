@@ -89,6 +89,8 @@ If we want to remove all the files from the staging area, code looks like 'git r
 If we want to save the changes made to the files, we use 'git commit' command.
 We can add a message regarding the commit. Then the code looks like 'git commit -m "message"'.
 
+#git log
+Say, we want to check the details of all the commits made and who made them, we use 'git log'.
 
 
 
