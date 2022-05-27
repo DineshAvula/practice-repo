@@ -71,6 +71,21 @@ We can remove it using  'rm -rf' command.
 #rm -rf
 This command is used to remove a file/folder from the current directory.
 
+#.gitignore
+Say, we have some files that we do not want to be tracked. In such cases, we make use of '.gitignore' file.
+'touch .gitignore' -- use this command first. This creates the .gitignore file.
+.gitignore is just a text file and we put inside it the names of the files that we want to be ignored.
+While we mention the names of the files to be ignored, we can use the wildcard characters.
+
+#git add -A
+If we want to add all the files that are currently untracked or that we made changes to the staging area, we use the command 'git add -A'.
+If not, we can add them individually.
+
+#git reset
+If we want to remove the files from the staging area, we use 'git reset' command. Code looks like 'git reset file-name'.
+If we want to remove all the files from the staging area, code looks like 'git reset'.
+
+
 
 
 
