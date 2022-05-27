@@ -21,7 +21,7 @@ Github  -- It is the website where we host all of our Git repositories.
 #Git commands -- all the commands are in lower case
 clone -- Say, there is a repository that is not present on our local machine but it is on github and we want to bring it onto our local machine.
 add -- when we have updated, created or deleted files and folders, we will want to tell Git that we have made changes and we want Git to track them. We use 'add'.
-commit -- we know that Git is used to save the changes tha we have made in the code. Once, we 'commit', we are saving those changes in Git i.e. we are committin those changes.
+commit -- we know that Git is used to save the changes tha we have made in the code. Once, we 'commit', we are saving those changes in Git i.e. we are committing those changes.
 push -- once we have made the changes locally on our computer and we are ready to put them on Git, we tell Git to track them through the 'add' command, we save our files to Git through the 'commit' command. 
 And then we save (or) upload our files to a remote repository like 'Github' or 'Bitbucket'. We do this through 'push' command.
 pull -- when there are changes to our code on Github and we want to download those to our local machine,we use 'pull' command i.e. we 'pull' down those changes from the repository.
@@ -92,5 +92,14 @@ We can add a message regarding the commit. Then the code looks like 'git commit 
 #git log
 Say, we want to check the details of all the commits made and who made them, we use 'git log'.
 
+#git clone
+Now, say, we want to clone a remote repository into a directory we want.
+This remote repository can be on internet or on our local machine.
+The code looks like 'git clone <url> <where-to-clone>'.
+Here, if the code looks like 'git clone <url> .' , it means thatit has to be cloned to the current directory.
+ 
+ 
+
+ 
 
 
