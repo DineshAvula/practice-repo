@@ -101,6 +101,7 @@ Here, if the code looks like 'git clone <url> .' , it means thatit has to be clo
 #git remote
 Say, we want information about the remote repository. For this, we use 'git remote' command.
  'git remote -v' -- it gives us the origin (or) source location of the remote repository
+<<<<<<< HEAD
 
  #git branch
  'git branch -a' -- it gives us all the branches present in our repository, not just locally, but remtely as well.
@@ -120,7 +121,13 @@ Say, we want information about the remote repository. For this, we use 'git remo
  
 
 
+=======
+>>>>>>> c94bae5040bf18cd492edf14470359244c5217ba
 
+ #git branch
+ 'git branch -a' -- it gives us all the branches present in our repository, not just locally, but remtely as well.
+ s
+ 
  
 
 
