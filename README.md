@@ -98,7 +98,7 @@ This remote repository can be on internet or on our local machine.
 The code looks like 'git clone <url> <where-to-clone>'.
 Here, if the code looks like 'git clone <url> .' , it means thatit has to be cloned to the current directory.
  
- 
+ newone
 
  
 
