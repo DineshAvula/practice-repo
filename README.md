@@ -58,10 +58,19 @@ We can also add a description here i.e. description of what we have done. We do 
  So, the command looks like 'git commit -m "my message" -m "some description" '.
  
 #git init
-Say, we want to create a new repository in the given folder. Then we just need to cd to that folder and then run 'git init'. This will create a new repo in this folder.
+Say, we want git to track the code in a particular folder. Then we just need to cd to that folder and then run 'git init'. This will track the code in that folder.
 
 If we want to make an already existing folder into a repository, then 'git init folder-name'.
 If we pass 'ls -la' commands into it, we will be able to see '.git' file in both of them.
+
+#.git
+It is a directory and it contains everything that is related to our repository.
+If we want to stop tracking a directory, then we just need to remove this '.git' directory.
+We can remove it using  'rm -rf' command.
+
+#rm -rf
+This command is used to remove a file/folder from the current directory.
+
 
 
 
