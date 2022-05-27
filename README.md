@@ -98,7 +98,28 @@ This remote repository can be on internet or on our local machine.
 The code looks like 'git clone <url> <where-to-clone>'.
 Here, if the code looks like 'git clone <url> .' , it means thatit has to be cloned to the current directory.
  
- newone
+#git remote
+Say, we want information about the remote repository. For this, we use 'git remote' command.
+ 'git remote -v' -- it gives us the origin (or) source location of the remote repository
+
+ #git branch
+ 'git branch -a' -- it gives us all the branches present in our repository, not just locally, but remtely as well.
+ 
+ #git push
+ We have made changes to our file and now, we want to push those changes even into our remote repository.
+ For this, we first need to commit those changes locally.
+ 'git diff' -- It shows the changes we have made to the file.
+ Once we commit those changes locally and when we want to push those changes to the remote repository, we have to do 2 things.
+ 1-- git pull
+ We have to pull all those changes that others have made since the time we had cloned the remote repository. Because, you may not be the only person working on the repository. And people may have been pushing some changes into the repository while we are working.
+ Code looks like 'git pull origin main'
+ Here, 'origin' represents our remote repository and 'main' is the branch that we want to pull from.
+ 2 -- git push
+ In order to push the changes, we use 'git push origin main'.
+ Here, 'origin' represents our remote repository and 'main' is the branch that we want to pull from.
+ 
+
+
 
  
 
