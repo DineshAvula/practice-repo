@@ -98,8 +98,14 @@ This remote repository can be on internet or on our local machine.
 The code looks like 'git clone <url> <where-to-clone>'.
 Here, if the code looks like 'git clone <url> .' , it means thatit has to be cloned to the current directory.
  
- 
+#git remote
+Say, we want information about the remote repository. For this, we use 'git remote' command.
+ 'git remote -v' -- it gives us the origin (or) source location of the remote repository
 
+ #git branch
+ 'git branch -a' -- it gives us all the branches present in our repository, not just locally, but remtely as well.
+ 
+ 
  
 
 
