@@ -118,12 +118,6 @@ Say, we want information about the remote repository. For this, we use 'git remo
  In order to push the changes, we use 'git push origin main'.
  Here, 'origin' represents our remote repository and 'main' is the branch that we want to pull from.
  
-
-
-
- #git branch
- 'git branch -a' -- it gives us all the branches present in our repository, not just locally, but remtely as well.
- s
  
  
 
